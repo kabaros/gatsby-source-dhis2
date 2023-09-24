@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "site",
+  "description": "An example Gatsby site using DHIS2 plugin",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "clean": "gatsby clean",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "next",
+    "gatsby-plugin-image": "next",
+    "gatsby-plugin-sharp": "next",
+    "gatsby-source-filesystem": "next",
+    "gatsby-transformer-sharp": "next",
+    "highcharts-react-official": "^3.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/highcharts": "^7.0.0",
+    "eslint-plugin-react": "^7.33.2"
+  }
+}
